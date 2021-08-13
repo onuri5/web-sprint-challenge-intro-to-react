@@ -40,7 +40,6 @@ const Character = props => {
                     return <div>
                                 <CharacterDiv key={index}><h1>{item.name}</h1></CharacterDiv>
                                     <CharacterInfo>
-                                        <p>name: {item.name}</p> 
                                         <p>height: {item.height} centimeters</p> 
                                         <p>weight: {item.mass} kilos</p>
                                         <p>hair color: {item.hair_color}</p>
