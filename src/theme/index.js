@@ -2,9 +2,7 @@
 
 export default {
     primaryColor: '#ffe81f', 
-    secondaryColor: 'crimson', 
-    tertiaryColor: 'lemonchiffon',
-    breakpointMobile: '(max-width: 550px)',
     black: 'black',
-    white: 'white'
+    white: 'white',
+    fontSize: '1.1rem'
 }

@@ -5,4 +5,13 @@
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
+
+.display {
+  display: inline-block !important;
+}
 /* write your parent styles in here for your App.js */
+body {
+  font-size: 62.5%;
+  background-color: white;
+  color: black;
+}

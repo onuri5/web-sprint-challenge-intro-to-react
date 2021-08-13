@@ -3,7 +3,6 @@ import './App.css';
 import axios from 'axios';
 import Character from './components/Character'
 
-
 const App = () => {
   // Try to think through what state you'll need for this app before starting. Then build out
   // the state properties here.
@@ -17,15 +16,12 @@ const App = () => {
   .then(res => {
     setCharacters(res.data)
   })
-  }, [])
-  
-
-  console.log(characters)
+  }, []);
 
   return (
     <div className="App">
       <h1 className="Header">Characters</h1>
-      <Character characters={characters} />
+      <Character characters={characters}/>
     </div>
   );
 }
