@@ -31,12 +31,13 @@ const CharacterInfo = styled.div `
 `
 
 const Character = props => {
-    
     return (
         <ContainerDiv>
             <div>{
+                //if props.characters is not null it maps through each person in the data
                 props.characters !== null ? 
                     props.characters.map((item, index) => {
+                        //for each person it creates a div housing their name and various details
                     return <div>
                                 <CharacterDiv key={index}><h1>{item.name}</h1></CharacterDiv>
                                     <CharacterInfo>
