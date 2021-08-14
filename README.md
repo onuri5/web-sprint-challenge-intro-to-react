@@ -81,6 +81,10 @@ After finishing your required elements, you can push your work further. These go
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+Reach Js is a javascipt library that makes it easier to create javaScript components such as making personalized divs out of data.
 1. Describe component state.
+Is data saved in state that can be updated without re-rendering the entire page.
 1. Describe props.
+props are data passed from our app to other components
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+side effects are things that we can designate to occur at a specific moment. We can change by listing which change in state we run the effect
